@@ -1,5 +1,4 @@
-from jira_easy_api_core import JiraClient
-
+from jira_easy_api import JiraClient
 
 jira_api_token="2pU1YDiGagbISzfGgDzfzE5C"
 jira_workspace_url='https://your_workspace.atlassian.net'
