@@ -46,3 +46,15 @@ class JiraClient:
         issue=self.issues[index]
         self.update_issue(issue,fields)
         
+    def delete_issue(self,issue,fields):
+        issue.delete(fields=fields)
+
+    def delete_issue_by_name(self,issue_name,fields):
+        if len(self.issues)==0:
+            project_name=issue_name.split("-")[0]
+            self.get_all_issues_by_project_name(project_name)
+        issue_names=[issue.key for issue in self.issues]
+        index=issue_names.index(issue_name)
+        issue=self.issues[index]
+        self.delete_issue(issue,fields)
+        
