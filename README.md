@@ -29,9 +29,6 @@ issues=jc.get_all_issues_by_project_name("FP")
 issue_ids=[str(issue) for issue in issues]
 ```
 
-In examples folder you can get several GUI elements.
-![alt text](https://github.com/dovax/pgwidget/blob/main/example1.png?raw=true)
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
