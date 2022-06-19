@@ -1,3 +1,3 @@
-from jira_easy_api_core import JiraClient
+from jira_easy_api.jira_easy_api_core import JiraClient
 
 __all__=["JiraClient"]

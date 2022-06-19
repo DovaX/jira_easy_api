@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     
 setuptools.setup(
     name='jira_easy_api',
-    version='0.1.1',
+    version='0.1.2',
     author='DovaX',
     author_email='dovax.ai@gmail.com',
     description='A wrapper around Jira API to run jira commands missing in their UI as oneliners',
