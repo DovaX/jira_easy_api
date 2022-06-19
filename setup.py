@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-          jira
+          ['jira']
      ],
     python_requires='>=3.6',
 )
